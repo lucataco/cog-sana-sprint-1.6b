@@ -6,6 +6,7 @@ build:
   cuda: "12.1"
   python_version: "3.11"
   python_requirements: requirements.txt
+  cog_runtime: true
 
 # predict.py defines how predictions are run on your model
 predict: "predict.py:Predictor"
